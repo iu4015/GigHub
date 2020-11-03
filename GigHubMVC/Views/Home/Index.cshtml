@@ -1,0 +1,33 @@
+﻿@model IEnumerable<GigHubMVC.Models.Gig> 
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<table class="gigs">
+    @foreach (var gig in Model)
+    { 
+        <tr>
+            <td>
+                <div class="date">
+                    <div class="month">
+                        @gig.DateTime.ToString("MMMM")
+                    </div>
+                    <div class="day">
+                        @gig.DateTime.ToString("d ")
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="details">
+                    <span class="artist">
+                        @gig.Artist.Name
+                    </span>
+                    <span class="genre">
+                        @gig.Genre.Name
+                    </span>
+                </div>
+            </td>
+        </tr>
+    }
+</table>

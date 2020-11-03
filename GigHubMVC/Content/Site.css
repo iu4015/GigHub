@@ -1,0 +1,131 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/*Override default bootstrap site color*/
+
+.navbar-inverse {
+    background-color: #ff4342;
+    border-color: #ff4342;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: rgba(149, 3, 3, 0.55);
+}
+
+элемент {
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+body {
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
+
+.form-control {
+    padding: 7px 20px;
+    font-size: 17px;
+    border-radius: 9px;
+}
+
+.form-control:focus {
+    border-color: #0484d5;
+}
+
+.gigs {
+    margin: 30px;
+}
+
+.gigs > tr,td {
+    padding: 20px;
+}
+
+.date {
+    background-color: red;
+    color: white;
+    text-align:center;
+    border-radius: 8px;
+}
+
+.month {
+    text-transform:uppercase;
+    font-size: 14px;
+    font-weight:700;
+    padding: 2px 6px;
+}
+
+.day {
+    background: #f7f7f7;
+    color: #333;
+    font-size: 20px;
+    padding: 6px 12px;
+}
+
+
+.btn {
+    padding: 9px 20px;
+    font-size: 17px;
+    border-radius: 9px;
+}
+
+.field-validation-error {
+    color: red;
+    font-weight: bold;
+}
+
+.artist {
+    display: block;
+    font-weight: bold;
+}
+
+.genre {
+    font-size: 15px;
+}
+
+/*Page-level styles*/
+
